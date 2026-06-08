@@ -3,172 +3,297 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lucky The Artist | Key West, FL</title>
+
+<title>Lucky Art Studio | Custom Artwork & Private Commissions</title>
+
+<meta name="description" content="Custom artwork, private commissions, portraits, murals, and original pieces by Lucky Art Studio. Schedule a consultation today.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
 
+<!-- NAVIGATION -->
 <header>
+    <div class="container nav-container">
 
-<div class="logo">
-<img src="images/lucky-logo.png" alt="Lucky The Artist">
-</div>
+        <div class="logo">
+            Lucky Art Studio
+        </div>
 
-<nav>
-<a href="#work">Work</a>
-<a href="#commissions">Commissions</a>
-<a href="#process">Process</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#commissions">Commissions</a></li>
+                <li><a href="#consultation">Consultation</a></li>
+            </ul>
+        </nav>
 
-<a href="#consultation" class="btn-nav">
-Schedule Consultation
-</a>
-
+    </div>
 </header>
 
+<!-- HERO -->
 <section class="hero">
 
-<div class="hero-content">
+    <div class="hero-content">
 
-<h1>Custom Artwork For Private Clients</h1>
+        <h1>Custom Artwork Crafted For You</h1>
 
-<p>
-Portraits • Pets • Motorcycles • Boats • Memorial Pieces • Family Heirlooms • Business Artwork
-</p>
+        <p>
+            Original paintings, portraits, murals, and private commissions
+            created with passion and precision.
+        </p>
 
-<div class="hero-buttons">
-<a href="#consultation" class="btn-gold">Schedule Consultation</a>
-<a href="#quote" class="btn-outline">Start A Project</a>
-</div>
+        <div class="hero-buttons">
 
-</div>
+            <a href="#consultation" class="btn btn-primary">
+                Schedule Consultation
+            </a>
 
-</section>
+            <a href="#gallery" class="btn btn-secondary">
+                View Gallery
+            </a>
 
-<section id="process" class="process">
+        </div>
 
-<h2>How It Works</h2>
-
-<div class="steps">
-
-<div class="step">
-<h3>1</h3>
-<p>Upload Photos</p>
-</div>
-
-<div class="step">
-<h3>2</h3>
-<p>Consult With Lucky</p>
-</div>
-
-<div class="step">
-<h3>3</h3>
-<p>Approve Design</p>
-</div>
-
-<div class="step">
-<h3>4</h3>
-<p>Pay Deposit</p>
-</div>
-
-<div class="step">
-<h3>5</h3>
-<p>Artwork Delivered</p>
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section id="work" class="gallery">
+<!-- ABOUT -->
+<section id="about" class="about">
 
-<h2>Featured Work</h2>
+    <div class="container">
 
-<div class="gallery-grid">
+        <h2>Meet Lucky</h2>
 
-<img src="images/work1.jpg">
-<img src="images/work2.jpg">
-<img src="images/work3.jpg">
-<img src="images/work4.jpg">
-<img src="images/work5.jpg">
+        <p>
+            Lucky creates one-of-a-kind artwork for collectors,
+            homeowners, businesses, and private clients.
+            Every project is tailored to your vision, whether
+            it's a portrait, custom canvas, mural, or statement piece.
+        </p>
 
-</div>
-
-</section>
-
-<section id="quote" class="quote-section">
-
-<h2>Start Your Project</h2>
-
-<form>
-
-<input type="text" placeholder="Name">
-
-<input type="email" placeholder="Email">
-
-<input type="tel" placeholder="Phone">
-
-<textarea placeholder="Tell Lucky About Your Project"></textarea>
-
-<input type="file">
-
-<button type="submit">
-Request Quote
-</button>
-
-</form>
+    </div>
 
 </section>
 
-<section id="consultation" class="consultation">
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
 
-<h2>Schedule Consultation</h2>
+    <div class="container">
 
-<p>
-Book a private consultation with Lucky.
-</p>
+        <h2>Featured Artwork</h2>
 
-<a href="#" class="btn-gold">
-Book Now
-</a>
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <img src="images/art1.jpg" alt="Artwork 1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/art2.jpg" alt="Artwork 2">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/art3.jpg" alt="Artwork 3">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/art4.jpg" alt="Artwork 4">
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
+<!-- COMMISSION FORM -->
+<section id="commissions" class="commission">
+
+    <div class="container">
+
+        <h2>Request A Custom Commission</h2>
+
+        <form class="form-grid">
+
+            <input
+                type="text"
+                placeholder="Full Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required>
+
+            <select required>
+                <option value="">
+                    Select Project Type
+                </option>
+                <option>
+                    Portrait
+                </option>
+                <option>
+                    Canvas Painting
+                </option>
+                <option>
+                    Mural
+                </option>
+                <option>
+                    Commercial Artwork
+                </option>
+                <option>
+                    Other
+                </option>
+            </select>
+
+            <input
+                type="file"
+                accept="image/*">
+
+            <textarea
+                rows="6"
+                placeholder="Describe your project vision..."
+                required></textarea>
+
+            <button
+                type="submit"
+                class="btn btn-primary">
+                Submit Request
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- DEPOSIT -->
 <section class="deposit">
 
-<h2>Secure Your Spot</h2>
+    <div class="container">
 
-<div class="deposit-buttons">
+        <h2>Reserve Your Project</h2>
 
-<a href="#">$100 Consultation Deposit</a>
+        <p>
+            Secure your place in Lucky's schedule with a project deposit.
+        </p>
 
-<a href="#">$250 Project Deposit</a>
+        <a href="#"
+           class="btn btn-primary">
+           Make Deposit
+        </a>
 
-<a href="#">Custom Invoice</a>
-
-</div>
+    </div>
 
 </section>
 
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+
+    <div class="container">
+
+        <h2>Client Reviews</h2>
+
+        <div class="testimonial-card">
+
+            <p>
+                "Lucky brought our vision to life and exceeded every expectation."
+            </p>
+
+            <strong>
+                – Private Collector
+            </strong>
+
+        </div>
+
+        <br>
+
+        <div class="testimonial-card">
+
+            <p>
+                "Professional, creative, and incredible attention to detail."
+            </p>
+
+            <strong>
+                – Business Client
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONSULTATION -->
+<section id="consultation" class="consultation">
+
+    <div class="container">
+
+        <h2>Schedule A Consultation</h2>
+
+        <p>
+            Tell us about your project and let's discuss your vision.
+        </p>
+
+        <form class="form-grid">
+
+            <input
+                type="text"
+                placeholder="Name"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email"
+                required>
+
+            <input
+                type="date"
+                required>
+
+            <textarea
+                rows="5"
+                placeholder="Project Details"></textarea>
+
+            <button
+                class="btn btn-primary"
+                type="submit">
+                Schedule Consultation
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
 <footer>
 
-<div class="footer-logo">
-Lucky The Artist
-</div>
+    <div class="container">
 
-<p>
-Custom Hand Crafted Artwork For Private Clients
-</p>
+        <h3>Lucky Art Studio</h3>
 
-<p>
-Key West, Florida
-</p>
+        <p>
+            Original Artwork • Custom Commissions • Fine Art
+        </p>
+
+        <br>
+
+        <p>
+            © 2026 Lucky Art Studio. All Rights Reserved.
+        </p>
+
+    </div>
 
 </footer>
 
